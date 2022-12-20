@@ -25,7 +25,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 3% 15% 15%;
 }
 
 /* Navagation Bar */
@@ -41,7 +41,7 @@ h3 {
 }
 
 .nav-item {
-  padding-bottom: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
@@ -53,14 +53,19 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
-.titel-image {
-  size: 60%;
+.title-image {
+  width: 60%;
   transform: rotate(15deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Feature Section */
 #features {
+  padding: 7% 15%;
   text-align: center;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-row {
@@ -116,4 +121,14 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
 }
