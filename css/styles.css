@@ -132,3 +132,35 @@ h3 {
     position: static;
   }
 }
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 20% 12%;
+}
+
+.cta-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding: 10% 12%;
+  text-align: center;
+}
+
+.social-icon {
+  size: 2rem;
+  color: #000;
+  margin: 12px;
+}
+
+.copyright {
+  color: #8f8f8f;
+  margin: 40px;
+}
